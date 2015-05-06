@@ -24,7 +24,7 @@
               <block type="oled_drawnumber" id="69" inline="true">
                 <value name="NUMBER">
                   <block type="sensor_object" id="110">
-                    <field name="OBJECT">RIGHTFRONT</field>
+                    <field name="OBJECT">LEFTFRONT</field>
                   </block>
                 </value>
                 <next>
@@ -62,7 +62,7 @@
                               <block type="oled_drawnumber" id="8" inline="true">
                                 <value name="NUMBER">
                                   <block type="sensor_object" id="9">
-                                    <field name="OBJECT">LEFTFRONT</field>
+                                    <field name="OBJECT">LEFTSIDE</field>
                                   </block>
                                 </value>
                                 <next>
@@ -100,21 +100,16 @@
                                               <block type="oled_drawnumber" id="164" inline="true">
                                                 <value name="NUMBER">
                                                   <block type="sensor_object" id="186">
-                                                    <field name="OBJECT">LEFTSIDE</field>
+                                                    <field name="OBJECT">REAR</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="oled_drawtext" id="7">
-                                                    <field name="TEXT">left=</field>
-                                                    <next>
-                                                      <block type="robot_delay" id="10" inline="true">
-                                                        <value name="DELAY">
-                                                          <block type="math_number" id="11">
-                                                            <field name="NUM">200</field>
-                                                          </block>
-                                                        </value>
+                                                  <block type="robot_delay" id="10" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="11">
+                                                        <field name="NUM">200</field>
                                                       </block>
-                                                    </next>
+                                                    </value>
                                                   </block>
                                                 </next>
                                               </block>
